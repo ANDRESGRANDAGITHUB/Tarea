@@ -59,8 +59,9 @@ Escribir "La respuesta del ejercicio es ", resultado
 FinFuncion
 
 
-Algoritmo Expresiones_Matem·citcas
-Definir opciones Como Real	
+Algoritmo Expresiones_Matem√°citcas
+Definir opciones Como Real
+opciones = 0
 Escribir "Selecciona el # de ejercicio que deseas ejecutar:"
 Leer opciones
 Segun opciones Hacer
@@ -85,6 +86,6 @@ Ejercicio9()
 10:
 Ejercicio10()
 De Otro Modo:
-Escribir "No se encontrÛ el ejercicio"
+Escribir "No se encontr√≥ el ejercicio"
 FinSegun
 FinAlgoritmo
