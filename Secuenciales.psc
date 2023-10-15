@@ -1,17 +1,25 @@
+// Inicio de la funci√≥n.
 Funcion Ejercicio11
+// Definimos las variables Numero_1 y Numero_2 como entero.
 Definir Numero_1, Numero_2 Como Entero
+// Asignamos valores a las variables Numero_1 y Numero_2.
 Numero_1 = 0; Numero_2 = 0
-Escribir "*** SUMA DE DOS N⁄MEROS ***"
-Escribir "Ingresa dos n˙meros:"
+Escribir "*** SUMA DE DOS N√öMEROS ***"
+Escribir "Ingresa dos n√∫meros:"
 Leer Numero_1
 Leer Numero_2
+// Mostramos el resultado en pantalla junto con un mensaje.
 Escribir "La respuesta del ejercicio es ", Numero_1 + Numero_2
+// Fin de la funci√≥n.
 FinFuncion
+
+
+// Las dem√°s funciones siguen una estructura similar, pero con diferentes c√°lculos y variables.
 
 Funcion Ejercicio12
 Definir base, altura Como Real
 base = 0; altura = 0
-Escribir "*** ¡REA DE UN TRI¡NGULO ***"
+Escribir "*** √ÅREA DE UN TRI√ÅNGULO ***"
 Escribir "Ingresa la base:"
 Leer base
 Escribir "Indica la altura:"
@@ -25,8 +33,8 @@ FinFuncion
 Funcion Ejercicio13
 Definir insertarNumero Como Entero
 insertarNumero = 0
-Escribir "*** N⁄MERO PAR O IMPAR ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "*** N√öMERO PAR O IMPAR ***"
+Escribir "Ingresa un n√∫mero:"
 Leer insertarNumero
 Si insertarNumero MOD 2 = 0 Entonces
 Escribir "La respuesta del ejercicio es PAR"
@@ -41,14 +49,14 @@ Numero_1 = 0; Numero_2 = 0
 Definir operacion Como Caracter	
 operacion = ""
 Escribir "*** CALCULADORA SIMPLE ***"
-Escribir "Ingresa dos n˙meros:"
+Escribir "Ingresa dos n√∫meros:"
 Leer Numero_1
 Leer Numero_2
-Escribir "Indica una operaciÛn:"
+Escribir "Indica una operaci√≥n:"
 Escribir "A -> SUMA"
 Escribir "B -> RESTA"
-Escribir "C -> MULTIPLICAI”N"
-Escribir "D -> DIVISI”N"
+Escribir "C -> MULTIPLICAI√ìN"
+Escribir "D -> DIVISI√ìN"
 Leer operacion
 Si operacion = "A" Entonces
 Escribir Numero_1, " + ", Numero_2, " = ", Numero_1 + Numero_2
@@ -62,7 +70,7 @@ SiNo
 Si operacion = "D" Entonces
 Escribir Numero_1, " / ", Numero_2, " = ", Numero_1 / Numero_2
 SiNo
-Escribir "OPCI”N INV¡LIDA O NO EXISTE"
+Escribir "OPCI√ìN INV√ÅLIDA O NO EXISTE"
 FinSi
 FinSi
 FinSi
@@ -73,7 +81,7 @@ Funcion Ejercicio15
 Definir ingresarNumero Como Entero
 ingresarNumero = 0
 Escribir "*** TABLA DE MULTIPLICAR ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "Ingresa un n√∫mero:"
 Leer ingresarNumero
 Escribir "La respuesta del ejercicio es "
 Escribir ingresarNumero, " * 1 = ", ingresarNumero * 1
@@ -101,8 +109,8 @@ FinFuncion
 Funcion Ejercicio17
 Definir Numero_1, Numero_2, Numero_3 Como Entero
 Numero_1 = 0; Numero_2 = 0; Numero_3 = 0	
-Escribir "*** MAYOR DE TRES N⁄MEROS ***"
-Escribir "Ingresa n˙meros:"
+Escribir "*** MAYOR DE TRES N√öMEROS ***"
+Escribir "Ingresa n√∫meros:"
 Leer Numero_1
 Leer Numero_2
 Leer Numero_3
@@ -124,7 +132,7 @@ FinFuncion
 Funcion Ejercicio18
 Definir edadVoto Como Entero
 edadVoto = 0
-Escribir "*** EDAD MÕNIMA PARA VOTAR ***"
+Escribir "*** EDAD M√çNIMA PARA VOTAR ***"
 Escribir "Ingresa tu edad:"
 Leer edadVoto
 Si edadVoto >= 18 Entonces
@@ -148,8 +156,8 @@ FinFuncion
 Funcion Ejercicio20
 Definir num Como Entero
 num = 0	
-Escribir "*** N⁄MERO POSITIVO, NEGAVITO O CERO ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "*** N√öMERO POSITIVO, NEGAVITO O CERO ***"
+Escribir "Ingresa un n√∫mero:"
 leer num
 Si num > 0 Entonces
 Escribir "La respuesta del ejercicio es "
@@ -170,15 +178,15 @@ FinFuncion
 Funcion Ejercicio21
 Definir num Como Entero
 num = 0
-Escribir "*** A—O BISIESTO ***"
-Escribir "Ingresa un aÒo:"
+Escribir "*** A√ëO BISIESTO ***"
+Escribir "Ingresa un a√±o:"
 Leer num
 Si num MOD 4 = 0 y ((num MOD 100 <> 0) o (num MOD 400 = 0)) Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "Es un aÒo bisiesto"
+Escribir "Es un a√±o bisiesto"
 SiNo
 Escribir "La respuesta del ejercicio es "
-Escribir "No es un aÒo bisiesto"
+Escribir "No es un a√±o bisiesto"
 FinSi
 FinFuncion
 
@@ -188,7 +196,7 @@ dia = 0
 Definir mes Como Caracter
 mes = ""
 Escribir "*** SIGNO ZODIACAL ***"
-Escribir "Ingresa tu dÌa de nacimiento:"
+Escribir "Ingresa tu d√≠a de nacimiento:"
 Leer dia
 Escribir "Indica tu mes:"
 Leer mes
@@ -202,11 +210,11 @@ Escribir "Tauro"
 SiNo
 Si (dia >= 21 y mes = "mayo") o (dia <= 20 y mes = "junio") Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "GÈminis"
+Escribir "G√©minis"
 SiNo
 Si (dia >= 21 y mes = "junio") o (dia <= 22 y mes = "julio") Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "C·ncer"
+Escribir "C√°ncer"
 SiNo
 Si (dia >= 23 y mes = "julio") o (dia <= 22 y mes = "agosto") Entonces
 Escribir "La respuesta del ejercicio es "
@@ -259,8 +267,8 @@ FinFuncion
 Funcion Ejercicio23
 Definir diaQuincena Como Entero
 diaQuincena = 0
-Escribir "*** DÕA DEL MES CON RESPECTO A LA SEGUNDA QUINCENA ***"
-Escribir "Ingresa un n˙mero de dÌa del mes:"
+Escribir "*** D√çA DEL MES CON RESPECTO A LA SEGUNDA QUINCENA ***"
+Escribir "Ingresa un n√∫mero de d√≠a del mes:"
 Leer diaQuincena
 Si diaQuincena = 0 Entonces
 Escribir "La respuesta del ejercicio es "
@@ -268,11 +276,11 @@ Escribir "INEXISTENTE"
 SiNo
 Si diaQuincena <= 15 Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "Primera quincena (1 - 15 dÌas)"
+Escribir "Primera quincena (1 - 15 d√≠as)"
 SiNo
 Si diaQuincena <= 31 Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "Segunda quincena (16 - 31 dÌas)"
+Escribir "Segunda quincena (16 - 31 d√≠as)"
 SiNo
 Escribir "La respuesta del ejercicio es "
 Escribir "INEXISTENTE"
@@ -284,8 +292,8 @@ FinFuncion
 Funcion Ejercicio24
 Definir dia Como Entero
 dia = 0	
-Escribir "*** DÕA DE LA SEMANA ***"
-Escribir "Ingresa un n˙mero del 1 al 7:"
+Escribir "*** D√çA DE LA SEMANA ***"
+Escribir "Ingresa un n√∫mero del 1 al 7:"
 Leer dia
 Segun dia Hacer
 1:
@@ -299,7 +307,7 @@ Escribir "La respuesta del ejercicio es "
 Escribir "Martes"
 4:
 Escribir "La respuesta del ejercicio es "
-Escribir "MiÈrcoles"
+Escribir "Mi√©rcoles"
 5:
 Escribir "La respuesta del ejercicio es "
 Escribir "Jueves"
@@ -308,7 +316,7 @@ Escribir "La respuesta del ejercicio es "
 Escribir "Viernes"
 7:
 Escribir "La respuesta del ejercicio es "
-Escribir "S·bado"
+Escribir "S√°bado"
 De Otro Modo:
 Escribir "La respuesta del ejercicio es "
 Escribir "INEXISTENTE"
@@ -338,7 +346,7 @@ articulo = ""
 Definir precio, descuento, total Como Real
 precio = 0; descuento = 0.0
 Escribir "*** CALCULADORA DE PRECIO CON DESCUENTO ***"
-Escribir "øQuÈ artÌculo vas a comprar?"
+Escribir "¬øQu√© art√≠culo vas a comprar?"
 Leer articulo
 Escribir "Indica el precio de ", articulo, ":"
 Leer precio
@@ -346,7 +354,7 @@ Escribir "Indica el porcentaje de descuento:"
 Leer descuento
 total = precio * descuento / 100
 Escribir "La respuesta del ejercicio es "
-Escribir "Se aplicÛ un ", descuento, "% de descuento. El precio final de ", articulo, " es $", precio - total
+Escribir "Se aplic√≥ un ", descuento, "% de descuento. El precio final de ", articulo, " es $", precio - total
 FinFuncion
 
 Funcion Ejercicio27
@@ -355,13 +363,13 @@ totalFactura = 0; porcentajeImpuesto = 0; suma = 0; resta = 0; total = 0
 Escribir "*** CALCULADORA DE FACTURA CON IMPUESTOS ***"
 Escribir "Ingresa el total de tu factura:"
 Leer totalFactura
-Escribir "Indica el porcentaje de impuesto que se aplicar·:"
+Escribir "Indica el porcentaje de impuesto que se aplicar√°:"
 Leer porcentajeImpuesto
 suma = porcentajeImpuesto / 100
 resta = suma * totalFactura
 total = resta + totalFactura
 Escribir "La respuesta del ejercicio es "
-Escribir "Se aplicÛ un ", porcentajeImpuesto, "% de impuesto. Su total es $", total
+Escribir "Se aplic√≥ un ", porcentajeImpuesto, "% de impuesto. Su total es $", total
 FinFuncion
 
 Funcion Ejercicio28
@@ -370,18 +378,18 @@ salarioActual = 0; porcentajeAumento = 0.0; total = 0
 Escribir "*** CALCULADORA DE SUELDO CON AUMENTO ***"
 Escribir "Ingresa tu salario actual:"
 Leer salarioActual
-Escribir "Indica el porcentaje de aumento que recibir·:"
+Escribir "Indica el porcentaje de aumento que recibir√°:"
 Leer porcentajeAumento
 total = porcentajeAumento * salarioActual / 100
 Escribir "La respuesta del ejercicio es "
-Escribir "Tu nuevo salario despuÈs del aumento es $", salarioActual + total
+Escribir "Tu nuevo salario despu√©s del aumento es $", salarioActual + total
 FinFuncion
 
 Funcion Ejercicio29
 Definir precio, cantidadArticulos, descuento, suma, resta, total Como Real
 precio = 0; cantidadArticulos = 0; descuento = 0.10; suma = 0; resta = 0; total = 0	
-Escribir "*** CALCULADORA DE COMPRA CON M⁄LTIPLES ARTÕCULOS ***"
-Escribir "Ingresa el precio de los artÌculos:"
+Escribir "*** CALCULADORA DE COMPRA CON M√öLTIPLES ART√çCULOS ***"
+Escribir "Ingresa el precio de los art√≠culos:"
 Leer precio
 Escribir "Indica la cantidad:"
 Leer cantidadArticulos
@@ -390,10 +398,10 @@ suma = precio * cantidadArticulos
 resta = suma * descuento
 total = suma - resta
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 10% de descuento. Su total es $", total
+Escribir "Aplic√≥ un 10% de descuento. Su total es $", total
 SiNo
 Escribir "La respuesta del ejercicio es "
-Escribir "No aplicÛ un descuento. Su total es $", precio * cantidadArticulos
+Escribir "No aplic√≥ un descuento. Su total es $", precio * cantidadArticulos
 FinSi
 FinFuncion
 
@@ -408,49 +416,49 @@ suma = salarioAnual * desc1
 resta = salarioAnual - suma
 total = resta
 Escribir "La respuesta del ejercicio es "
-Escribir "Se aplicÛ un 5% de impuesto sobre la renta. Su total es $", total
+Escribir "Se aplic√≥ un 5% de impuesto sobre la renta. Su total es $", total
 Sino 
 Si ((salarioAnual >= 10001) Y (salarioAnual <= 20000)) Entonces
 suma = salarioAnual * desc2
 resta = salarioAnual - suma
 total = resta
 Escribir "La respuesta del ejercicio es "
-Escribir "Se aplicÛ un 10% de impuesto sobre la renta. Su total es $", total
+Escribir "Se aplic√≥ un 10% de impuesto sobre la renta. Su total es $", total
 Sino 
 Si salarioAnual > 20000 Entonces
 suma = salarioAnual * desc3
 resta = salarioAnual - suma
 total = resta
 Escribir "La respuesta del ejercicio es "
-Escribir "Se aplicÛ un 15% de impuesto sobre la renta. Su total es $", total
+Escribir "Se aplic√≥ un 15% de impuesto sobre la renta. Su total es $", total
 FinSi
 FinSi
 FinSi
 FinFuncion
 
 Funcion Ejercicio33
-Definir sueldo, aÒos, descuento, suma, resta, total Como Real
-sueldo = 450; aÒos = 0; descuento = 0.05; suma = 0; resta = 0; total = 0
-Escribir "*** DESCUENTO POR ANTIG‹EDAD EN LA EMPRESA ***"
-Escribir "øCu·ntos aÒos ha trabajado en nuestra empresa?"
-Leer aÒos
+Definir sueldo, a√±os, descuento, suma, resta, total Como Real
+sueldo = 450; a√±os = 0; descuento = 0.05; suma = 0; resta = 0; total = 0
+Escribir "*** DESCUENTO POR ANTIG√úEDAD EN LA EMPRESA ***"
+Escribir "¬øCu√°ntos a√±os ha trabajado en nuestra empresa?"
+Leer a√±os
 suma = sueldo * descuento
 resta = suma + sueldo
 total = resta
-Si aÒos > 5 Entonces
+Si a√±os > 5 Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 5% de bono de $", suma, " y agregado a su salario de $", sueldo, " es $", total
+Escribir "Aplic√≥ un 5% de bono de $", suma, " y agregado a su salario de $", sueldo, " es $", total
 Sino
 Escribir "La respuesta del ejercicio es "
-Escribir "No aplicÛ un bono. Su salario se mantiene en $", sueldo
+Escribir "No aplic√≥ un bono. Su salario se mantiene en $", sueldo
 FinSi
 FinFuncion
 
 Funcion Ejercicio34
 Definir distanciaEnvio Como Real
 distanciaEnvio = 0
-Escribir "*** CALCULADORA DE ENVÕO CON TARIFAS DIFERENTES ***"
-Escribir "Ingresa la distancia del envÌo:"
+Escribir "*** CALCULADORA DE ENV√çO CON TARIFAS DIFERENTES ***"
+Escribir "Ingresa la distancia del env√≠o:"
 Leer distanciaEnvio
 Si distanciaEnvio < 50 Entonces
 Escribir "La respuesta del ejercicio es "
@@ -467,14 +475,14 @@ Funcion Ejercicio35
 Definir totalcompras Como Real
 totalcompras = 0
 Escribir "*** CALCULADORA DE DESCUENTO POR LEALTAD DEL CLIENTE ***"	
-Escribir "Ingresa el total de tus cumpras mensuales al aÒo:"
+Escribir "Ingresa el total de tus cumpras mensuales al a√±o:"
 Leer totalcompras
 Si totalcompras >= 500 Entonces
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 10% de descuento para la prÛxima compra"
+Escribir "Aplic√≥ un 10% de descuento para la pr√≥xima compra"
 SiNo
 Escribir "La respuesta del ejercicio es "
-Escribir "No aplicÛ un descuento para la prÛxima compra"
+Escribir "No aplic√≥ un descuento para la pr√≥xima compra"
 FinSi
 FinFuncion
 
@@ -491,26 +499,26 @@ suma = unidadesProducto * precioUnitario
 resta = suma * desc1
 total = suma - resta
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 5% de descuento. Su total es $", total
+Escribir "Aplic√≥ un 5% de descuento. Su total es $", total
 SiNo
 Si unidadesProducto >= 51 y unidadesProducto <= 100 Entonces
 suma = unidadesProducto * precioUnitario
 resta = suma * desc2
 total = suma - resta
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 10% de descuento. Su total es $", total
+Escribir "Aplic√≥ un 10% de descuento. Su total es $", total
 SiNo
 Si	unidadesProducto >= 100 Entonces
 suma = unidadesProducto * precioUnitario
 resta = suma * desc3
 total = suma - resta
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 15% de descuento. Su total es $", total
+Escribir "Aplic√≥ un 15% de descuento. Su total es $", total
 SiNo
 suma = unidadesProducto * precioUnitario
 total = suma
 Escribir "La respuesta del ejercicio es "
-Escribir "No aplicÛ un descuento. Su total es $", total
+Escribir "No aplic√≥ un descuento. Su total es $", total
 FinSi
 FinSi
 FinSi
@@ -520,7 +528,7 @@ Funcion Ejercicio40
 Definir horasServicio, costoServicio, descuento, suma, resta, total Como Real
 horasServicio = 0; costoServicio = 0; descuento = 0.20; suma = 0; resta = 0; resta = 0
 Escribir "*** CALCULADORA DE COSTO DE SERVICIO ***"	
-Escribir "øCu·ntas horas de servicio necesita?"
+Escribir "¬øCu√°ntas horas de servicio necesita?"
 Leer horasServicio
 Escribir "Indica el costo por hora:"
 Leer costoServicio
@@ -529,12 +537,12 @@ suma = costoServicio * horasServicio
 resta = suma * descuento
 total = suma - resta
 Escribir "La respuesta del ejercicio es "
-Escribir "AplicÛ un 20% de descuento. Su costo es $", total
+Escribir "Aplic√≥ un 20% de descuento. Su costo es $", total
 SiNo
 suma = costoServicio * horasServicio 
 total = suma
 Escribir "La respuesta del ejercicio es "
-Escribir "No aplicÛ un descuento. Su costo es $", total 
+Escribir "No aplic√≥ un descuento. Su costo es $", total 
 FinSi
 FinFuncion
 
@@ -546,7 +554,7 @@ Si bucleFor MOD 2 = 0 Entonces
 sumaPar = sumaPar + bucleFor
 FinSi
 FinPara
-Escribir "*** SUMA DE N⁄MEROS PARES ***"
+Escribir "*** SUMA DE N√öMEROS PARES ***"
 Escribir "La respuesta del ejercicio es "
 Escribir sumaPar
 FinFuncion
@@ -555,7 +563,7 @@ Funcion Ejercicio42
 Definir tablaMultiplicar, ingresarNumero Como Entero
 tablaMultiplicar = 0; ingresarNumero = 0
 Escribir "*** TABLA DE MULTIPLICAR ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "Ingresa un n√∫mero:"
 Leer ingresarNumero
 Escribir "La respuesta del ejercicio es "
 Para tablaMultiplicar = 1 Hasta 12 Con Paso 1 Hacer
@@ -594,7 +602,7 @@ Funcion Ejercicio44
 Definir x, contadorDigitos Como Entero
 Definir ingresarPalabra Como Caracter
 contadorDigitos = 0; ingresarPalabra = ""
-Escribir "*** CONTADOR DE DÕGITOS ***"
+Escribir "*** CONTADOR DE D√çGITOS ***"
 Escribir "Escribe una palabra:"
 Leer ingresarPalabra
 x = 1
@@ -602,14 +610,14 @@ Para x = 1 Hasta Longitud(ingresarPalabra) Con Paso 1 Hacer
 contadorDigitos = contadorDigitos + 1
 FinPara
 Escribir "La respuesta del ejercicio es "
-Escribir contadorDigitos, " n˙meros de dÌgitos"
+Escribir contadorDigitos, " n√∫meros de d√≠gitos"
 FinFuncion
 
 Funcion Ejercicio45
 Definir x, numeroAleatorio, ingresarNumero Como Entero
 numeroAleatorio = azar(9) + 1; ingresarNumero = 0
-Escribir "*** ADIVINA EL N⁄MERO ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "*** ADIVINA EL N√öMERO ***"
+Escribir "Ingresa un n√∫mero:"
 x = 3
 Mientras x > 0 Hacer
 Leer ingresarNumero
@@ -653,7 +661,7 @@ sumaImpar = sumaImpar + bucleWhile
 FinSi
 bucleWhile = bucleWhile + 1
 FinMientras
-Escribir "*** SUMA DE N⁄MEROS IMPARES ***"
+Escribir "*** SUMA DE N√öMEROS IMPARES ***"
 Escribir "La respuesta del ejercicio es "
 Escribir sumaImpar
 FinFuncion
@@ -671,8 +679,8 @@ FinFuncion
 Funcion Ejercicio49
 Definir bucleWhile, ingresarNumero, total Como Entero
 ingresarNumero = 0; total = 0
-Escribir "*** SUMA DE N⁄MEROS ***"
-Escribir "Ingresa n˙meros enteros positivos:"
+Escribir "*** SUMA DE N√öMEROS ***"
+Escribir "Ingresa n√∫meros enteros positivos:"
 bucleWhile = 1
 Mientras bucleWhile > 0 Hacer
 Leer ingresarNumero
@@ -690,7 +698,7 @@ Funcion Ejercicio50
 Definir ingresarNumero Como Entero
 ingresarNumero = 0
 Escribir "*** CUENTA REGRESIVA ***"
-Escribir "Ingresa un n˙mero entero positivo:"
+Escribir "Ingresa un n√∫mero entero positivo:"
 Leer ingresarNumero
 Escribir "La respuesta del ejercicio es "
 Mientras ingresarNumero >= 1 Hacer
@@ -767,7 +775,7 @@ val(3) = 3
 val(4) = 4
 val(5) = 5
 Escribir "*** BUSCAR UN ELEMENTOS ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "Ingresa un n√∫mero:"
 Leer jp
 Si ((jp >= val(1)) Y (jp <= val(5))) Entonces
 Escribir "La respuesta del ejercicio es "
@@ -805,12 +813,12 @@ FinFuncion
 Funcion Ejercicio56
 Definir t, i, arreglo1, arreglo2, x, c Como Entero
 t = 0
-Escribir "Ingresa el tamaÒo del arreglo:"
+Escribir "Ingresa el tama√±o del arreglo:"
 Leer t
 c = 1
 Dimension arreglo1(t), arreglo2(t)
 Para i = 1 Hasta t Con Paso 1 Hacer
-Escribir "Ingresa n˙meros:"
+Escribir "Ingresa n√∫meros:"
 Leer arreglo1(i)
 FinPara
 arreglo2(1)=arreglo1(t)
@@ -834,8 +842,8 @@ Para i = 1 Hasta 4 Con Paso 1 Hacer
 az = azar(4)
 arreglo(i) = az
 Fin Para
-Escribir "*** BUSCAR EL ÕNDICE ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "*** BUSCAR EL √çNDICE ***"
+Escribir "Ingresa un n√∫mero:"
 Leer x
 Para i = 1 Hasta 4 Con Paso 1 Hacer
 comprobador = arreglo(i)
@@ -853,8 +861,8 @@ FinSi
 FinFuncion
 
 Funcion Ejercicio58
-Escribir "*** FUNCI”N SIN PAR¡METROS PARA SALUDAR ***"
-Escribir "°Hola!"
+Escribir "*** FUNCI√ìN SIN PAR√ÅMETROS PARA SALUDAR ***"
+Escribir "¬°Hola!"
 FinFuncion
 
 Funcion sumadosnumeros(a, b)
@@ -863,8 +871,8 @@ FinFuncion
 Funcion Ejercicio59
 Definir a, b Como Entero
 a = 0; b  = 0
-Escribir "*** FUNCI”N CON PAR¡METROS PARA SUMAR DOS N⁄MEROS ***"
-Escribir "Ingresa dos n˙meros:"
+Escribir "*** FUNCI√ìN CON PAR√ÅMETROS PARA SUMAR DOS N√öMEROS ***"
+Escribir "Ingresa dos n√∫meros:"
 Leer a
 Leer b
 sumadosnumeros(a, b)
@@ -874,15 +882,15 @@ Funcion multiplicaciondosnumeros
 Escribir "La respuesta del ejercicio es ", 4 * 3
 FinFuncion
 Funcion Ejercicio60
-Escribir "*** FUNCI”N CON RETURN PARA MULTIPLICAR DOS N⁄MEROS ***"
+Escribir "*** FUNCI√ìN CON RETURN PARA MULTIPLICAR DOS N√öMEROS ***"
 multiplicaciondosnumeros
 FinFuncion
 
 Funcion Ejercicio61
 Definir parr, x Como Entero
 x = 0
-Escribir "*** FUNCI”N SIN RETURN PARA DETERMINAR SI UN N⁄MERO ES PAR O IMPAR ***"
-Escribir "Ingresa un n˙mero:"
+Escribir "*** FUNCI√ìN SIN RETURN PARA DETERMINAR SI UN N√öMERO ES PAR O IMPAR ***"
+Escribir "Ingresa un n√∫mero:"
 Leer x
 parr = x MOD 2
 Si parr = 0 Entonces 
@@ -898,7 +906,7 @@ FinFuncion
 Funcion Ejercicio62
 Definir b, h Como Entero
 b = 0; h = 0
-Escribir "*** FUNCI”N CON PAR¡METROS Y RETURN PARA CALCULAR EL ¡REA DE UN RECT¡NGULO ***"
+Escribir "*** FUNCI√ìN CON PAR√ÅMETROS Y RETURN PARA CALCULAR EL √ÅREA DE UN RECT√ÅNGULO ***"
 Escribir "Ingresa la base:"
 Leer b
 Escribir "Indica la altura:"
@@ -911,7 +919,7 @@ Definir i Como Entero
 i = 0
 Definir nombre Como Caracter
 nombre = ""
-Escribir "*** FUNCI”N SIN PAR¡METROS PARA IMPRIMIR TU NOMBRE ***"
+Escribir "*** FUNCI√ìN SIN PAR√ÅMETROS PARA IMPRIMIR TU NOMBRE ***"
 Escribir "Ingresa tu nombre:"
 Leer nombre
 Para i = 1 Hasta 5 Con Paso 1 Hacer
@@ -923,7 +931,7 @@ Funcion convcelsiusafahrenheit
 Escribir "La respuesta del ejercicio es ", (14 * 9 / 5) + 32
 FinFuncion
 Funcion Ejercicio64
-Escribir "*** FUNCI”N CON RETURN PARA CONVERTIR GRADOS CELSIUS A FAHRENHEIT ***"
+Escribir "*** FUNCI√ìN CON RETURN PARA CONVERTIR GRADOS CELSIUS A FAHRENHEIT ***"
 convcelsiusafahrenheit
 FinFuncion
 
@@ -934,7 +942,7 @@ FinFuncion
 Funcion Ejercicio65
 Definir asd Como Caracter
 asd = ""
-Escribir "*** FUNCI”N CON PAR¡METROS PARA CONTAR UN CAR¡CTER EN UNA FRASE ***"
+Escribir "*** FUNCI√ìN CON PAR√ÅMETROS PARA CONTAR UN CAR√ÅCTER EN UNA FRASE ***"
 Escribir "Ingresa una frase:"
 Leer asd
 contcaracter(asd)
@@ -943,7 +951,7 @@ FinFuncion
 Funcion Ejercicio66
 Definir i Como Entero
 i = 0
-Escribir "*** FUNCI”N SIN RETURN PARA IMPRIMIR N⁄MEROS DEL 1 AL 10 ***"
+Escribir "*** FUNCI√ìN SIN RETURN PARA IMPRIMIR N√öMEROS DEL 1 AL 10 ***"
 Escribir "La respuesta del ejercicio es "
 Para i = 1 Hasta 10 Con Paso 1 Hacer
 Escribir i
@@ -956,8 +964,8 @@ FinFuncion
 Funcion Ejercicio67
 Definir num1, num2, num3, num4, num5 Como Entero
 num1 = 0; num2 = 0; num3 = 0; num4 = 0; num5 = 0
-Escribir "*** FUNCI”N CON PAR¡METROS Y RETURN PARA SUMAR UNA LISTA DE N⁄MEROS ***"
-Escribir "Ingresa cinco n˙meros:"
+Escribir "*** FUNCI√ìN CON PAR√ÅMETROS Y RETURN PARA SUMAR UNA LISTA DE N√öMEROS ***"
+Escribir "Ingresa cinco n√∫meros:"
 Leer num1
 Leer num2
 Leer num3
@@ -1088,6 +1096,6 @@ Ejercicio66()
 67:
 Ejercicio67()
 De Otro Modo:
-Escribir "No se encontrÛ el ejercicio"
+Escribir "No se encontr√≥ el ejercicio"
 FinSegun
 FinAlgoritmo
