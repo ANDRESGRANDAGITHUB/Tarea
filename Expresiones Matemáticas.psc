@@ -71,7 +71,7 @@ FinFuncion
 Algoritmo Expresiones_Matemácitcas
 Definir opciones Como Real
 opciones = 0
-Escribir "Selecciona el # de ejercicio que deseas ejecutar:"
+Escribir "Elige el ejercicio que quieras ejecutar:"
 Leer opciones
 Segun opciones Hacer
 1: 
@@ -95,6 +95,6 @@ Ejercicio9()
 10:
 Ejercicio10()
 De Otro Modo:
-Escribir "No se encontró el ejercicio"
+Escribir "No se encontró ese ejercicio"
 FinSegun
 FinAlgoritmo
