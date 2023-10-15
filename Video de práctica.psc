@@ -1,29 +1,29 @@
-// Inicio de la funciÛn.
+// Inicio de la funci√≥n.
 Funcion Ejercicio1
 // Definimos la variable color como caracter.
 Definir color Como Caracter
 // Asignamos un valor a la variable color.
 color = "blanco"
 // Mostramos el resultado en pantalla junto con un mensaje.
-Escribir color
-// Fin de la funciÛn.
+Escribir "Respuesta: ", color
+// Fin de la funci√≥n.
 FinFuncion
 
 
-// Las dem·s funciones siguen una estructura similar, pero con diferentes c·lculos y variables.
+// Las dem√°s funciones siguen una estructura similar, pero con diferentes c√°lculos y variables.
 
 Funcion Ejercicio2
 Definir edad Como Entero
 edad = 0
 Escribir "Ingresa tu edad:"
 Leer edad
-Escribir "Tienes ", edad, " aÒos"
+Escribir "Tienes ", edad, " a√±os"
 FinFuncion
 
 Funcion Ejercicio3
 Definir num1, num2, resultado Como Entero
 num1 = 0; num2 = 0; resultado = 0
-Escribir "Ingresa dos n˙meros:"
+Escribir "Ingresa dos n√∫meros:"
 Leer num1
 Leer num2
 resultado = num1 + num2
@@ -59,10 +59,10 @@ Funcion Ejercicio6
 Definir numAzar, numaj, intentos Como Entero
 numAzar = azar(10); numaj = 0; intentos = 3
 Mientras intentos > 0 Hacer
-Escribir "Adivina el numero, ingresa un numero porfavor"
+Escribir "Adivina el numero, ingresa un numero por favor"
 Leer numaj
 Si numaj = numAzar Entonces
-Escribir "Guau acertaste, eres un ganador, el numero es ", numAzar
+Escribir "Acertaste, eres un ganador, el n√∫mero es ", numAzar
 intentos = -1
 SiNo
 intentos = intentos - 1
@@ -79,20 +79,20 @@ FinFuncion
 Funcion Ejercicio7
 Definir combo Como Entero
 combo = 0
-Escribir "Que combo desea?"
-Escribir "1: Combo 1"
-Escribir "2: Combo 2"
-Escribir "3: Combo 3"
+Escribir "Selecciona una marca de tel√©fono a comprar:"
+Escribir "1 -> Samsung"
+Escribir "2 -> LG"
+Escribir "3 -> Motorola"
 Leer combo
 Segun combo Hacer
 1:
-Escribir " El valor es de $5.00"
+Escribir "Gracias por comprar tu tel√©fono Samsung"
 2:
-Escribir " El valor es de $2.50"
+Escribir "Gracias por comprar tu tel√©fono LG"
 3:
-Escribir " El valor es de $1.00"
+Escribir "Gracias por comprar tu tel√©fono Motorola"
 De Otro Modo:
-Escribir "No disponemos aquello que pides"
+Escribir "No se encuentran disponibles otras marcas de tel√©fono"
 Fin Segun
 FinFuncion
 
@@ -102,9 +102,9 @@ num = azar(10)
 Definir respuesta Como Caracter
 respuesta = ""
 Repetir
-Escribir "El n˙mero aleatorio es ", Num
-Escribir "øEst·s satisfecho con el n˙mero que obtuviste?"
-Escribir "Indica con Y si lo est·s o N si no lo est·s"
+Escribir "Tu n√∫mero asignado es: ", num
+Escribir "¬øEst√°s satisfecho con el n√∫mero que obtuviste?"
+Escribir "Indica con Y si lo est√°s o N si no lo est√°s"
 Leer respuesta
 Hasta Que respuesta = "N"
 FinFuncion
@@ -114,8 +114,9 @@ Dimension personas(3)
 personas(1) = "Pepito"
 personas(2) = "Juanito"
 personas(3) = "Panchito"
+Escribir "Respuesta: "
 Para i = 1 Hasta 3 Con Paso 1 Hacer
-Escribir "El nombre de mi arreglo es : ", personas(i)
+Escribir personas(i)
 FinPara
 FinFuncion
 
@@ -123,17 +124,17 @@ Funcion sumar(num1, num2)
 Escribir "Respuesta: ", num1 + num2
 FinFuncion
 Funcion Ejercicio10
-Escribir "Ingresa dos n˙meros:"
+Escribir "Ingresa dos n√∫meros:"
 Leer num1
 Leer num2
 sumar(num1, num2)
 FinFuncion
 
 
-Algoritmo Video_de_pr·ctica
-Definir opciones Como Entero
+Algoritmo Video_de_pr√°ctica
+Definir opciones Como Real
 opciones = 0
-Escribir "Selecciona el # del ejercicio que deseas ejecutar:"
+Escribir "Elige el ejercicio que quieras ejecutar:"
 Leer opciones
 Segun opciones Hacer
 1:
@@ -157,6 +158,6 @@ Ejercicio9()
 10:
 Ejercicio10()
 De Otro Modo:
-Escribir "No se encontrÛ el ejercicio"
+Escribir "No se encontr√≥ ese ejercicio"
 FinSegun
 FinAlgoritmo
