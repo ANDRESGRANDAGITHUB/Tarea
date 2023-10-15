@@ -1,8 +1,17 @@
-Funcion Ejercicio1 
+// Inicio de la función.
+Funcion Ejercicio1
+// Definimos las variables a, b y _y como enteros.
 Definir a, b, _y Como Entero
+// Asignamos valores a las variables a y b.
+// Calculamos el valor de _y utilizando la fórmula asignada para obtener su resultado.
 a = 3; b = 7; _y = 2 * a + b - a MOD 3
+// Mostramos el resultado en pantalla junto con un mensaje.
 Escribir "La respuesta del ejercicio es ", _y
+// Fin de la función.
 FinFuncion
+
+
+// Las demás funciones siguen una estructura similar, pero con diferentes cálculos y variables.
 
 Funcion Ejercicio2
 Definir a, b, z Como Entero
